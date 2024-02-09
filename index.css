@@ -207,7 +207,7 @@ section .topic a {
 	cursor: default;
 }
 
-.about .boxes1 .box {
+.about .content .boxes1 .box {
 	margin: 10px 20px;
 	max-width: calc(100% - 50px);
 	text-align: center;
