@@ -5,12 +5,11 @@
 }
 
 body {
-	background-color: white;
+	background-color: grey;
 	color: black;
 	font-family: "Fira Sans", sans-serif;
-	background-color: white;
+	background-color: grey;
 }
-
 
 nav {
 	width: 100%;
@@ -208,6 +207,14 @@ section .topic a {
 	cursor: default;
 }
 
+.about {
+	background-color: grey;
+}
+
+.about .content {
+	background-color: grey;
+}
+
 .about .content .boxes1 .box {
 	margin: 10px 20px;
 	max-width: calc(100% - 50px);
@@ -216,6 +223,7 @@ section .topic a {
 	padding: 30px 10px;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
 	cursor: default;
+	background-color: lightgrey;
 }
 
 /* Contact Page */
