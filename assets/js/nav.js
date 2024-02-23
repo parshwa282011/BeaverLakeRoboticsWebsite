@@ -20,6 +20,8 @@ function loadNavbar() {
 		}
 		i++;
 	}
+}
+function loadImage() {
 	elmnt = document.getElementById("image-placeholder")
     xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
