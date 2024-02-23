@@ -9,8 +9,6 @@ function loadNavbar() {
 	}
 	console.log(xhttp.open("GET", WEB_HOME+"assets/nav/nav.html", true));
     xhttp.send();
-	var image = document.getElementById("image");
-	image.src = WEB_HOME + image.src;
 	var listOfLinks = document.getElementsByTagName("a");
 	i=0;
 	while (i < listOfLinks.length){
@@ -22,4 +20,14 @@ function loadNavbar() {
 		}
 		i++;
 	}
+	elmnt = document.getElementById("image-placeholder")
+    xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function() {
+	    if (this.readyState == 4) {
+		    if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+	    	if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+    	}	
+	}
+	console.log(xhttp.open("GET", WEB_HOME+"assets/nav/image.html", true));
+    xhttp.send();
 }
