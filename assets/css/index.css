@@ -98,6 +98,9 @@ ul li {
 	float: left;
 	background: black;
 }
+ul {
+	background-position-x: right;
+}
 li ul { display: none; }
 ul li a {
   display: block;

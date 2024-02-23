@@ -9,6 +9,8 @@ function loadNavbar() {
 	}
 	console.log(xhttp.open("GET", WEB_HOME+"assets/nav/nav.html", true));
     xhttp.send();
+	var image = document.getElementById("image");
+	image.src = WEB_HOME + image.src;
 	var listOfLinks = document.getElementsByTagName("a");
 	i=0;
 	while (i < listOfLinks.length){
