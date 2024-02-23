@@ -1,39 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-	<!DOCTYPE html>
-	<html lang="en">
-		<head>
-			<meta charset="UTF-8"/>
-			<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-			<link rel="stylesheet" href="assets/css/index.css"/>
-			<script src="assets/js/index.js"></script>
-			<title>Beaver Lake</title>
-		</head>
-		<body>
-			<nav>
-				<img src="assets/images/MiddleSchools_BLMS-LargeLetterswhite.svg" alt="Bulldog" width="400" height="55"/>
-				<div class="navbar">
-					<div class="dropdown">
-						<button class="dropbtn">FTC <i class="fa fa-caret-down"></i></button>
-						<div class="dropdown-content">
-							<a href="../BeaverLakeRoboticsWebsite/ftc/AlphaIntelligence/index.html">Alpha Intelligence</a>
-							<a href="../BeaverLakeRoboticsWebsite/ftc/BetaBionix/index.html">Beta Bionix</a>
-						</div>
-					</div>
-					<div class="dropdown">
-						<button class="dropbtn">FLL <i class="fa fa-caret-down"></i></button>
-						<div class="dropdown-content">
-							<a href="../BeaverLakeRoboticsWebsite/fll/Alpha Tech/index.html">Alpha Tech</a>
-							<a href="../BeaverLakeRoboticsWebsite/fll/Robotic Dogs/index.html">Robotic Dogs</a>
-							<a href="../BeaverLakeRoboticsWebsite/fll/Spark Bots/index.html">Spark Bots</a>
-						</div>
-					</div>
-					<ul>
-						<li><a href="HomePage/index.html">Home</a></li>
-						<li><a href="About/index.html">About</a></li>
-					</ul> 
-				</div>
-			</nav>
-		</body>
-	</html>
+	<head>
+		<meta charset="UTF-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="assets/css/index.css"/>
+		<script src="assets/js/index.js"></script>
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<title>Beaver Lake Robotics</title>
+		<script src="https://code.jquery.com/jquery.min.js"></script>
+			<script>
+			$.get("navigation.html", function(data){
+				$("#nav-bar").replaceWith(data);
+			});
+		</script>
+	</head>
+	<body>
+		<div id="nav-bar"> </div>
+		<div id="nav-placeholder"/>
+		<!-- 
+			<script>
+			xhttp = new XMLHttpRequest();
+			xhttp.onreadystatechange = function() {
+				if (this.readyState == 4) {
+					if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+					if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+				}	
+			}
+			console.log(xhttp.open("GET", "assets/nav/nav.html", true));
+			xhttp.send();
+		</script>
+	-->
+	</body>
+</html>
