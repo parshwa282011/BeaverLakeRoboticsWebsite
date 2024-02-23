@@ -4,20 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../../assets/css/index.css">
+    <script src="../../assets/js/global.js"></script>
+    <script src="../../assets/js/index.js"></script>
+	<script src="../../assets/js/nav.js"></script>
     <title>Beta Bionix</title>
 </head>
 
-<body>
-    <nav>
-        <div class="button">☰</div>
-        <img src="../../assets/images/MiddleSchools_BLMS-LargeLetterswhite.svg" alt="Bulldog" width="400" height="55">
-        <div class="navbar">
-            <ul>
-                <li><a href="../../index.html">Home</a></li>
-                <li><a href="#About">About</a></li>
-            </ul>
-        </div>
-    </nav>
+<body onload="loadNavbar();">
+    <div id="nav-placeholder"></div>
     <section class="about">
         <div class="content">
             <br />
