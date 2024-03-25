@@ -11,7 +11,6 @@ var idToLink = {
 	"ftc": "ftc",
 	"ftc-alpha-intelligence": "ftc/alpha-intelligence",
 	"ftc-beta-bionix": "ftc/beta-bionix"
-
 };
 
 function loadNavbar() {
@@ -46,5 +45,5 @@ function replaceAnchorLinks(){
 		i++;
 	}
 	var image = document.getElementById("image-top");
-	image.src = WEB_HOME + "assets/images/Logo.png";
+	image.src = WEB_HOME + "assets/images/Logo.jpeg";
 }
