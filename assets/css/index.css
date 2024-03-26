@@ -242,10 +242,7 @@ li:hover li a:hover { background: #2c3e50; border-radius: 15px;}
 	font-weight: 600;
 }
 
-a {
-	text-decoration: none;
-	color: black;
-}
+
 
 /* Header content responsive */
 @media screen and (max-width: 980px) {
@@ -281,12 +278,6 @@ a {
 }
 
 /* section */
-
-section .topic a {
-	font-size: 25px;
-	font-weight: 500;
-	margin-bottom: 10px;
-}
 
 .about .boxes {
 	display: flex;
@@ -327,6 +318,20 @@ table, th, td {
 .name {
 	background-color:cadetblue;
 	color:#fff;
+}
+
+.pic {
+	background-color:antiquewhite;
+}
+
+.role {
+	background-color:black;
+	color:yellow;
+}
+
+.contributions {
+	background-color:aliceblue;
+	color:#333;
 }
 
 img {
@@ -512,7 +517,7 @@ footer .footer span a:hover {
 	}
 
 	section .topic a {
-		font-size: 20px;
+		font-size: 5px;
 	}
 
 	section .topic p {
@@ -537,6 +542,5 @@ footer .footer span a:hover {
     font-size: 3vw;
     font-weight: 700;
     padding: 1vw 2vw;
-    text-transform: uppercase;
-    z-index: 1;
+    z-index: 5;
 }
