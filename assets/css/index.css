@@ -303,18 +303,41 @@ section .topic a {
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
 	cursor: default;
 }
+
+
+#details {
+	text-align: center;
+}
+
 table {
 	font-family: arial, sans-serif;
-	border-collapse: collapse;
-	width: 100%;
 }
+
+table, th, td {
+	border: 2px solid black;
+	border-spacing: 1px;
+	border-radius: 5px;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.name {
+	background-color:cadetblue;
+	color:#fff;
+}
+
 img {
 	align-self: center;
 }
 td, th {
-	border: 1px solid #dddddd;
 	text-align: left;
 	padding: 8px;
+}
+td {
+	text-align: center;
 }
 .box {
 	background-color: white;
