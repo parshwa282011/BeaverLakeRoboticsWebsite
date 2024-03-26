@@ -303,7 +303,7 @@ section .topic a {
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
 	cursor: default;
 }
-.about .images .box {
+.about .content .images .box {
 	margin: 10px 20px;
 	max-width: calc(100% / 5 - 50px);
 	text-align: center;
@@ -311,6 +311,7 @@ section .topic a {
 	padding: 30px 10px;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
 	cursor: default;
+	background-color: white;
 }
 .about {
 	background-color: grey;
