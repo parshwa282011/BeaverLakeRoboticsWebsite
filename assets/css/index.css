@@ -303,16 +303,21 @@ section .topic a {
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
 	cursor: default;
 }
-.about .content .images .box {
-	margin: 10px 20px;
-	max-width: calc(100% / 3 - 50px);
-	text-align: center;
-	border-radius: 12px;
-	padding: 30px 10px;
-	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
-	cursor: default;
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+  
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+.box {
 	background-color: white;
 }
+
 .about {
 	background-color: grey;
 }
