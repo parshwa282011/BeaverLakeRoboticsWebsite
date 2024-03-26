@@ -316,6 +316,8 @@ td, th {
 }
 .box {
 	background-color: white;
+	align-items: center;
+	border-radius: 12px;
 }
 
 .about {
