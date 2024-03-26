@@ -488,3 +488,14 @@ footer .footer span a:hover {
 		max-width: 70%;
 	}
 }
+
+.home-title {
+	text-align: center;
+	color: #fff;
+    font-family: Century Gothic;
+    font-size: 3vw;
+    font-weight: 700;
+    padding: 1vw 2vw;
+    text-transform: uppercase;
+    z-index: 1;
+}

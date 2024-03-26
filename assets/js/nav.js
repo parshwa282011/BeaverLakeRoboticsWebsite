@@ -45,5 +45,5 @@ function replaceAnchorLinks(){
 		i++;
 	}
 	var image = document.getElementById("image-top");
-	image.src = WEB_HOME + "assets/images/Logo.jpeg";
+	image.src = WEB_HOME + "assets/images/logo.jpeg";
 }
