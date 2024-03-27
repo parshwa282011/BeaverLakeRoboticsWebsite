@@ -23,7 +23,7 @@ function loadNavbar() {
     	}
 		replaceAnchorLinks();
 	}
-	console.log(xhttp.open("GET", WEB_HOME+"assets/nav/nav.html", true));
+	console.log(xhttp.open("GET", WEB_HOME+"/assets/nav/nav.html", true));
     xhttp.send();
 	
 }
@@ -37,7 +37,7 @@ function replaceAnchorLinks(){
 		var location = idToLink[id];
 		if (location != null) {
 			try {
-				a.href = WEB_HOME + location;
+				a.href = WEB_HOME + "/" + location;
 			} catch (error) {
 				continue;
 			}
@@ -45,5 +45,5 @@ function replaceAnchorLinks(){
 		i++;
 	}
 	var image = document.getElementById("image-top");
-	image.src = WEB_HOME + "assets/images/logo.jpeg";
+	image.src = WEB_HOME + "/assets/images/logo.jpeg";
 }
